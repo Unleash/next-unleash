@@ -78,7 +78,7 @@ import Router from 'next/router';
 import JssProvider from 'react-jss/lib/JssProvider';
 import getPageContext from '../src/getPageContext';
 
-import withUnleashProvider from 'next-unleash';
+import { withUnleashProvider } from 'next-unleash';
 
 class MyApp extends App {
   constructor(props) {
@@ -120,7 +120,7 @@ import withUnleash from 'next-unleash';
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import withUnleash from './unleash/withUnleash';
+import { withUnleash } from './unleash/withUnleash';
 
 class MyComponent extends React.Component {
 

@@ -20,7 +20,8 @@
   "homepage": "https://github.com/Unleash/next-unleash#readme",
   "peerDependencies": {
     "next": "^6.0.0 || ^7.0.0",
-    "react": "^16.0.0"
+    "react": "^16.0.0",
+    "prop-types": "^15.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
