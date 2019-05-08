@@ -10,9 +10,10 @@ propagated as part of SSR.
 **This project is considered a POC. APIs and components might change**
 
 ## Not solved yet:
-- Client side update of toggles. We should use SSR or similar to update the client toggles when changes are detected. Currently these changes are only picket up during reload (SSR). 
+- Client side update of toggles. We should use SSE or similar to update the client toggles when changes are detected. Currently these changes are only picket up during reload (SSR). 
 - A wrapper component. It would provably be easier to use if there where some kind of react component you could use to wrap your components. 
 - Figure out if there are ways to configure the middleware with next.js so that users don't have to introduce custom server. 
+- Make it easy to configure toggles you care about in the app.
 
 
 ## How to use
