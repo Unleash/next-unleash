@@ -1,5 +1,5 @@
-import withUnleashProbider from './with-unleash-provider';
+import withUnleashProvider from './with-unleash-provider';
 import withUnleash from './with-unleash';
 
 
-export {withUnleashProbider, withUnleash};
+export {withUnleashProvider, withUnleash};
