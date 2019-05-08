@@ -1,0 +1,29 @@
+{
+  "name": "next-unleash",
+  "version": "1.0.0",
+  "description": "Ease integration with next.js",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Unleash/next-unleash.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Unleash/next-unleash/issues"
+  },
+  "homepage": "https://github.com/Unleash/next-unleash#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-preset-minify": "^0.5.0"
+  }
+}
