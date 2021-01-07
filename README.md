@@ -130,7 +130,7 @@ class MyComponent extends React.Component {
 
     return (
       <div>
-        {toggle.demo ? <p>Enabled</p> : <p>disabled</p>}
+        {toggles.demo ? <p>Enabled</p> : <p>disabled</p>}
       </div>
     );
   }
