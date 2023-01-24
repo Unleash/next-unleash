@@ -1,3 +1,5 @@
+> ## This repo is being deprecated, use [`@unleash/nextjs` package](https://www.npmjs.com/package/@unleash/nextjs)
+
 # next-unleash
 The goal of this module is to make it easy to use Unleash with next.js. 
 
